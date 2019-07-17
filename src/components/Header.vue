@@ -11,11 +11,12 @@
         <a href="javascript:;">产品</a>
         <a href="javascript:;">动态</a>
         <a href="javascript:;">联系</a>
-        <a href="javascript:;" class="txt">进入商城</a>
+        <a href="javascript:;" class="txt">我要订购</a>
       </div>
       <div style="clear: both"></div>
     </div>
     <div class="hr"></div>
+      <div style="clear: both"></div>
   </div>
 
 </template>
@@ -31,7 +32,7 @@ export default {
   width: 100%;
 
   z-index: 15;
-  position: fixed;
+  /* position: fixed; */
 }
 
 .container {
