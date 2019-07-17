@@ -1,18 +1,35 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+ 
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+ //引入子组件
+import aboutOne from './child/About_one'
+
 
 export default {
-  name: 'home',
-  components: {
-    HelloWorld
+  data() {
+    return {
+      shopList: [],
+      sizes: ['1.2', '2.2', '3.2', '7.2'],
+      products: [],
+      pics: []
+    }
+  },
+  methods: {
+    
+	},
+
+	// 注册子组件
+	components:{
+"about-one":aboutOne,
+
+	},
+  created() {
+    
+  },
+  mounted() {
+
   }
-}
+  }
 </script>

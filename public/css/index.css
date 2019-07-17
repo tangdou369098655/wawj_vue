@@ -1,0 +1,339 @@
+.bgimg {
+  width: 100%;
+  background: url(../images/download.jpg) no-repeat;
+  background-position: center;
+  height: 400px;
+  position: relative;
+  text-align: center;
+}
+
+.conimg {
+  width: 405px;
+  position: absolute;
+  top: 20%;
+  left: 40%;
+}
+
+.qq {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.qq_1 {
+  transition: all .3s linear;
+  margin-left: 5px;
+}
+
+.qq_1:hover {
+  transform: scale(1.2);
+}
+
+.content {
+  width: 95%;
+  height: 500px;
+  border: 1px solid #fff;
+  margin: 0 auto;
+  margin-top: 34px;
+  position: relative;
+}
+
+.content p:first-child {
+  font-size: 20px;
+  position: absolute;
+  top: 15px;
+  left: 10px;
+}
+
+.content>p:nth-child(2) {
+  font-size: 16px;
+  color: #666;
+  margin-top: 5px;
+  position: absolute;
+  top: 35px;
+  left: 10px;
+  margin-bottom: 20px;
+}
+
+.sangediv {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 200px;
+}
+
+.sangediv div:first-child {
+  width: 250px;
+}
+
+.sangediv hr {
+  width: 80px;
+  height: 1px;
+  /* color: black; */
+  background-color: #000;
+}
+
+.sangediv div:first-child p {
+  font-size: 14px;
+  color: #666
+}
+
+.sangediv div:last-child {
+  width: 20%;
+}
+
+.more {
+  display: inline-block;
+  width: 150px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  border: 1px solid #000;
+  position: relative;
+  transition: all .3s linear;
+}
+
+.more hr {
+  position: absolute;
+  left: 71%;
+  top: 13px;
+}
+
+.more:hover {
+  background: #000;
+  color: #fff
+}
+
+.f-20 {
+  font-size: 20px;
+  margin-top: 1rem;
+}
+
+.f-14 {
+  font-size: 16px;
+  color: #666
+}
+
+.content2 {
+  width: 95%;
+  height: 500px;
+  border: 1px solid #fff;
+  margin: 0 auto;
+  position: relative;
+}
+
+.content2 p:first-child {
+  font-size: 20px;
+  position: absolute;
+  top: 15px;
+  left: 10px;
+}
+
+.content2>div>p:nth-child(2) {
+  font-size: 16px;
+  color: #666;
+  margin-top: 5px;
+  position: absolute;
+  top: 35px;
+  left: 10px;
+  margin-bottom: 20px;
+}
+
+.fr {
+  float: right;
+}
+
+.content2 div:first-child span {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.con_sco_div {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.con_sco_div div {
+  width: 24%;
+  text-align: center;
+}
+
+.con_sco_div div p {
+  font-size: 20px;
+}
+
+.mt {
+  margin-top: 25px;
+}
+
+.w40 {
+  width: 40px;
+  margin-left: 10px;
+}
+
+.content3 {
+
+  width: 95%;
+  height: 500px;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.content3 div:first-child {
+  position: relative;
+  width: 28%;
+  height: 24px;
+}
+
+.content3>div:first-child p:first-child {
+  font-size: 20px;
+  position: absolute;
+
+  left: 200px;
+  top: 20px;
+  /* border:1px solid red; */
+}
+
+.content3>div:first-child p:last-child {
+  font-size: 14px;
+  color: #666;
+  position: absolute;
+  left: 200px;
+  top: 45px;
+}
+
+.con3-sco {
+  width: 40%;
+}
+
+.con3-sco img {
+  width: 90%;
+  height: 400px;
+  object-fit: fill;
+}
+
+.content3>div:nth-child(3) {
+  width: 33%;
+}
+
+ul li {
+  width: 100%;
+  height: 150px;
+  border-bottom: 1px solid #666;
+  margin-top: 0.5rem;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.w-30 {
+  width: 30%;
+}
+
+.w-70 {
+  width: 70%;
+}
+
+.p-25 {
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.p-20 {
+  font-size: 20px;
+}
+
+.p-16 {
+  font-size: 20px;
+}
+
+.p-12 {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.bigmore {
+  display: block;
+  width: 100px;
+  height: 40px;
+  line-height: 40px;
+  border: 1px solid #000;
+  margin: 0 auto;
+  text-align: center;
+  transition: .3s;
+}
+
+.bigmore:hover {
+  background: #000;
+  color: #fff
+}
+
+.content4 {
+  width: 95%;
+  margin: 0 auto;
+  height: 300px;
+ 
+  margin-top: 1rem;
+}
+
+.message {
+  width: 50%;
+}
+
+.phone {
+  width: 25%;
+}
+
+.follow {
+  width: 25%;
+}
+
+.p-14 {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 80px;
+}
+
+.message input {
+  border-bottom: 1px solid #666
+}
+
+.message-box {
+  width: 70%;
+  height: 86px;
+}
+
+.message button {
+  width: 100px;
+  height: 25px;
+  text-align: center;
+  line-height: 25px;
+  border: 1px solid #000;
+  margin-top: 1rem;
+}
+
+.phone ul li {
+  width: 100%;
+  height: 25px;
+  border: none;
+  font-size: 16px;
+  color: #666;
+
+}
+
+.mountion{
+          width: 100%;
+          height:200px;
+          
+          background: url(../images/4.jpg) no-repeat;
+          background-size: cover;
+          background-position: 0px -550px;
+          }
