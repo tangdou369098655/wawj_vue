@@ -1,8 +1,8 @@
 <template>
 <div class="content2">
 		<div class="con_sco_div">
-			<div v-for="(item,i) in products" :key="i" class=" wow bounceInLeft animated  pro-four" :data-wow-delay="`${0.3+i/10}s`" >
-				<img :src="pics[i] && pics[i].img" style="width:100%;">
+			<div v-for="(item,i) in products" :key="i" class="  pro-four"  >
+				<img :src="pics[i] && pics[i].img" style="width:100%;" class=" wow bounceInLeft animated " :data-wow-delay="`${0.4+i/6}s`" >
 				<p>{{item.index_title}}</p>
 			</div>
 		</div>
@@ -51,8 +51,8 @@ export default {
 
   },
   created(){
-    this.onload()
     this.getData()
+    this.onload()
   }
 }
 </script>
@@ -118,6 +118,7 @@ export default {
   display: flex;
   width:100%;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .con_sco_div div {

@@ -2,7 +2,7 @@
 		<div class="bgimg"  data-wow-duration="0.8s">
 		<div class="conimg">
 			<img src="images/17.png" alt="" class=" wow bounceInLeft animated" data-wow-delay="0.6s" ><br><br>
-			<img src="images/18.png"  class=" wow bounceInRight animated conimg-two" data-wow-delay="0.8s" ><img src="images/32.png"  class=" wow bounceInLeft animated  conimg-three" data-wow-delay="0.8s" >
+			<img src="images/118.png"  class=" wow bounceInRight animated conimg-two" data-wow-delay="0.8s" ><img src="images/32.png"  class=" wow bounceInLeft animated  conimg-three" data-wow-delay="0.8s" >
 		</div>
 	</div>
 </template>

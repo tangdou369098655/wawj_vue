@@ -5,14 +5,14 @@
 		<div class="sangediv">
 			<div class=" wow bounceInUp animated conimg-two" data-wow-delay="0.5s">
 				<img src="images/15.png" alt=""><br>
-				<img src="images/12.png" alt="">
+				<img src="images/112.png" alt="">
 				<hr><br>
 				<p class=" wow bounceInLeft animated conimg-two" data-wow-delay="0.7s">公司全面推进企业信息化战略，实而现了从产品研发设计、采购、生产制造、物流、销售，到顾客售后服务的全价值链信息化集成管理。</p>
 				<br>
 				<p class=" wow bounceInLeft animated conimg-two" data-wow-delay="0.8s">公司全面推进企业信息化战略，实而现了从产品研发设计、采购、生产制造、物流、销售，到顾客售后服务的全价值链信息化集成管理。</p>
 			</div>
-			<div class=" wow bounceInDown animated conimg-two" data-wow-delay="0.6s">
-				<img src="images/33.jpg" alt="">
+			<div class=" conimg-two" >
+				<img src="images/33.jpg"  class=" wow bounceInDown animated " data-wow-delay="0.8s">
 			</div>
 			<div class="more wow bounceInUp animated conimg-two" data-wow-delay="0.7s">
 				<a href="javascript:;" class="">MORE

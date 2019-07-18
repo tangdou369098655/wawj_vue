@@ -2,8 +2,8 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Home from './views/Home.vue'
 import MainRouter from './views/MainRouter.vue'
-// import Deatil from './views/Detail.vue'
-// import List from './views/List.vue'
+import Pro from './views/Pro.vue'
+import Detail from './views/Detail.vue'
 // import Cart from './views/Cart.vue'
 // import Order from './views/Order.vue'
 // import Portal from './views/Portal.vue'
@@ -29,6 +29,14 @@ export default new Router({
         {
           path: 'home',
           component:Home
+        },
+        {
+          path: 'pro',
+          component:Pro
+        },
+        {
+          path: 'detail',
+          component:Detail
         },
        
             

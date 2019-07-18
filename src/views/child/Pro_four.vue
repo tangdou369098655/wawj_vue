@@ -1,20 +1,20 @@
 <template>
 <div class="content2">
 		<div class="con_sco_div">
-			<div class=" wow bounceInLeft animated  pro-four" data-wow-delay="0.8s" >
-				<img src="images/22.jpg" style="width:100%;">
+			<div class="  pro-four"  >
+				<img src="images/22.jpg" class=" wow flipInX animated" data-wow-delay="0.2s"  style="width:100%;">
 				<p>拉丝小台灯</p>
 			</div>
 			<div class="  pro-four">
-				<img src="images/28.jpg"  style="width:100%;">
+				<img src="images/28.jpg" class=" wow flipInX animated" data-wow-delay="0.4s"   style="width:100%;">
 				<p>银色金属圆桌</p>
 			</div>
 			<div class="  pro-four">
-				<img src="images/19.jpg"  style="width:100%;">
+				<img src="images/19.jpg" class=" wow flipInX animated" data-wow-delay="0.6s"   style="width:100%;">
 				<p>深灰木纹台灯</p>
 			</div>
 			<div class="  pro-four">
-				<img src="images/30.jpg" alt="" class=" wow bounceInLeft animated" data-wow-delay="0.8s"   style="width:100%;">
+				<img src="images/30.jpg" alt="" class=" wow  flipInX animated" data-wow-delay="0.8s"   style="width:100%;">
 				<p>居家立式台灯</p>
 			</div>
 		</div>

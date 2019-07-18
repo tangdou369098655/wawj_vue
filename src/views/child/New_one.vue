@@ -1,42 +1,42 @@
 <template>
 <div class="content3">
-		<div class="con3-sco wow bounceInLeft animated" data-wow-delay="0.8s">
-			<img src="images/1.jpg"  >
+		<div class="con3-sco wow bounceInLeft animated" data-wow-delay="0.5s">
+			<img src="images/2.jpg"  >
 		</div>
 		<div class="con-new">
 			<ul>
 				<li>
 					<div class="fl w-30">
-						<p class="p-25">2018</p>
-						<p class="p-20">05/28</p>
+						<p class="p-25 wow bounceInRight animated conimg-two" data-wow-delay="0.3s">2018</p>
+						<p class="p-20 wow bounceInRight animated conimg-two" data-wow-delay="0.5s">05/28</p>
 					</div>
 					<div class="fr w-70">
-						<p class="p-16">家居电商首部送装标准将出台 树立行业服务标杆</p>
-						<p class="p-12">
+						<p class="p-16 wow bounceInRight animated conimg-two" data-wow-delay="0.6s">家居电商首部送装标准将出台 树立行业服务标杆</p>
+						<p class="p-12 wow bounceInRight animated conimg-two" data-wow-delay="0.8s">
 							2018年5月24日，《家居电商送货与安装服务标准》专家终审会在京东集团举行，由住建部、国标委、环保部环境认证中心......
 						</p>
 					</div>
 				</li>
 				<li>
 					<div class="fl w-30">
-						<p class="p-25">2018</p>
-						<p class="p-20">05/26</p>
+						<p class="p-25 wow bounceInRight animated conimg-two" data-wow-delay="0.4s">2018</p>
+						<p class="p-20 wow bounceInRight animated conimg-two" data-wow-delay="0.6s">05/26</p>
 					</div>
 					<div class="fr w-70">
 						<p class="p-16 wow bounceInRight animated conimg-two" data-wow-delay="0.8s" >整木家居发展潜力无限，为地板业带来了哪些商机？</p>
-						<p class="p-12 wow bounceInRight animated conimg-two" data-wow-delay="0.8s" >
+						<p class="p-12 wow bounceInRight animated conimg-two" data-wow-delay="1s" >
 							整木家装早已不是陌生词汇，与发达国家相比，我国的整木家居似乎只在极少数的家庭中存在。但最近几年，整木家居似乎......
 						</p>
 						</div>
 				</li>
 				<li>
 					<div class="fl w-30">
-						<p class="p-25">2018</p>
-						<p class="p-20">05/24</p>
+						<p class="p-25 wow bounceInRight animated conimg-two" data-wow-delay="0.6s">2018</p>
+						<p class="p-20 wow bounceInRight animated conimg-two" data-wow-delay="0.8s">05/24</p>
 					</div>
 					<div class="fr w-70">
-						<p class="p-16">工业4.0五大产业链打造出智能工厂</p>
-						<p class="p-12 wow bounceInRight animated conimg-two" data-wow-delay="0.8s" >
+						<p class="p-16 wow bounceInRight animated conimg-two" data-wow-delay="1s">工业4.0五大产业链打造出智能工厂</p>
+						<p class="p-12 wow bounceInRight animated conimg-two" data-wow-delay="1.2s" >
 							在智能工厂里，机器和设备将具有提升的自我优化和自主决策的能力。这与今日运行固定程序操作的情况形成了鲜明的对比......
 						</p>
 						</div>

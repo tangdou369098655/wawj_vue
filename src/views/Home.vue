@@ -6,7 +6,9 @@
   title_english="Product"
   ></title-one>
   <pro-four></pro-four>
-  <pro-five></pro-five>
+  <pro-five
+  state=14
+  ></pro-five>
   <more></more>
   <pro-hot
   state=15
@@ -14,15 +16,18 @@
 	kinds="尊享"
   ></pro-hot>
   <pro-one></pro-one>
+  <title-one
+  title="产品展示"
+  title_english="Product"
+  ></title-one>
+  <pro-five
+  state=12
+  ></pro-five>
   <pro-hot
   state=5
 	msg="VIP精品推荐"
 	kinds="高端"
   ></pro-hot>
-  <title-one
-  title="产品展示"
-  title_english="Product"
-  ></title-one>
   <pro-hot
   state=4
 	msg="精选推荐"

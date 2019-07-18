@@ -8,7 +8,7 @@
       <div class="newon-all">
       <div class="newon-list" v-for="(item,i) in products" :key="i">
         <div>
-            <img :src="pics[i] && pics[i].img" alt="">
+            <img :src="pics[i] && pics[i].img" class=" wow rollIn animated " :data-wow-delay="`${0.4+i/5}s`">
         </div>
         <div>
             <i>[{{kinds}}系列]&nbsp;{{item.index_title}}</i>

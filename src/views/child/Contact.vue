@@ -1,6 +1,6 @@
 <template>
 <div class="content4">
-		<div class="fl message ">
+		<div class="fl message  wow bounceInLeft animated" data-wow-delay="0.5s" >
 			<p class="p-20">留言</p>
 			<p class="p-14">get in touch</p>
 			<form action="">
@@ -11,7 +11,7 @@
 				<button>提交</button>
 			</form>
 		</div>
-		<div class="fl phone wow bounceInLeft animated" data-wow-delay="0.8s" >
+		<div class="fl phone wow bounceInLeft animated" data-wow-delay="0.7s" >
 			<p class="p-20">联系</p>
 			<p class="p-14">contact us</p>
 			<ul>
@@ -24,7 +24,7 @@
 		<div class="fl follow ">
 			<p class="p-20">关注</p>
 			<p class="p-14">follow us</p>
-			<div class="qq wow bounceInLeft animated" data-wow-delay="0.8s" >
+			<div class="qq wow bounceInLeft animated" data-wow-delay="0.9s" >
 				<img src="images/9.png" alt="" class="qq_1">
 				<img src="images/10.png" alt="" class="qq_1">
 				<img src="images/11.png" alt="" class="qq_1">
