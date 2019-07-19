@@ -6,9 +6,9 @@
     <div class="newon">
       <p>{{msg}}</p>
       <div class="newon-all">
-      <div class="newon-list" v-for="(item,i) in products" :key="i">
+      <div v-for="(item,i) in products" :key="i"  class="newon-list  wow bounceInLeft  animated" :data-wow-delay="`${0.4+i/5}s`">
         <div>
-            <img :src="pics[i] && pics[i].img" class=" wow rollIn animated " :data-wow-delay="`${0.4+i/5}s`">
+            <img :src="pics[i] && pics[i].img">
         </div>
         <div>
             <i>[{{kinds}}系列]&nbsp;{{item.index_title}}</i>
@@ -39,7 +39,14 @@ export default {
       sizes: ['1.2', '2.2', '3.2', '7.2'],
     }
   }, methods:{
+    onload(){
+      
+      if (!(/msie [6|7|8|9]/i.test(navigator.userAgent))) {
+			new WOW().init();
+		};
+    },
     getData() {
+      console.log(this.state)
       axios.get(
         `http://localhost:3000/index`,{params:{status:this.state}}
       ).then(
@@ -61,6 +68,7 @@ export default {
   },
   created(){
     this.getData()
+    this.onload()
   }
 }
 </script>
@@ -104,7 +112,7 @@ font-size:16px;
 }
 .newon .newon-list{
 width:290px;
-overflow: hidden;
+/* overflow: hidden; */
 background-color: #fff;
 }
 .newon-list>div>img{

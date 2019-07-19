@@ -1,4 +1,8 @@
 <template>
+<div class="header">
+  <div class="mt103">
+    
+  </div>
  <div class="headd">
     <div class="container">
       <div class="fl logo">
@@ -7,8 +11,8 @@
       </div>
       <div class="fr container-a">
         <a href="javascript:;">首页</a>
-        <a href="javascript:;">关于</a>
-        <a href="javascript:;">产品</a>
+        <a :href="`/#/about`">关于</a>
+        <a :href="`/#/pro`">产品</a>
         <a href="javascript:;">动态</a>
         <a href="javascript:;">联系</a>
         <a href="javascript:;" class="txt">我要订购</a>
@@ -18,7 +22,7 @@
     <div class="hr"></div>
       <div style="clear: both"></div>
   </div>
-
+</div>
 </template>
 <script>
 export default {
@@ -28,11 +32,20 @@ export default {
 }
 </script>
 <style scoped>
+.header{
+  position: relative;
+}
+ .mt103{
+    height:103px;
+    width:100%;
+    background-color: #fff;
+  }
 .headd {
   width: 100%;
-
+  background-color: #fff;
+top:0;
   z-index: 15;
-  /* position: fixed; */
+  position: fixed;
 }
 
 .container {

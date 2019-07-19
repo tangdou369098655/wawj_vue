@@ -4,11 +4,11 @@
 			<div id="banner">
 				<div id="btn-left"></div>
 				<ul id="ul-imgs">
-					<li><a href="javascript:;"><img src="images/banner1.jpg"></a></li>
-					<li><a href="javascript:;"><img src="images/banner2.jpg"></a></li>
-					<li><a href="javascript:;"><img src="images/banner3.jpg"></a></li>
-					<li><a href="javascript:;"><img src="images/banner4.jpg"></a></li>
-					<li><a href="javascript:;"><img src="images/banner1.jpg"></a></li>
+					<li><a :href="`/#/detail?pid=5`"><img src="images/banner1.jpg"></a></li>
+					<li><a :href="`/#/detail?pid=8`"><img src="images/banner2.jpg"></a></li>
+					<li><a :href="`/#/detail?pid=6`"><img src="images/banner3.jpg"></a></li>
+					<li><a :href="`/#/detail?pid=10`"><img src="images/banner4.jpg"></a></li>
+					<li><a :href="`/#/detail?pid=40`"><img src="images/banner1.jpg"></a></li>
 				</ul>
 				<ul id="ul-idxs">
 					<li class="active"></li>

@@ -65,6 +65,7 @@ import proTwo from './child/Pro_two'
 import proThree from './child/Pro_three'
 import proFour from './child/Pro_four'
 import proFive from './child/Pro_five'
+import proSix from './child/Pro_six'
 import more from './child/More'
 import titleOne from './child/Title_one'
 import proHot from './child/pro_hot'
@@ -92,6 +93,7 @@ export default {
 "pro-three":proThree,
 "pro-four":proFour,
 "pro-five":proFive,
+"pro-six":proSix,
 "more":more,
 "title-one":titleOne,
 "pro-hot":proHot

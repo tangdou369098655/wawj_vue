@@ -4,7 +4,7 @@ import Home from './views/Home.vue'
 import MainRouter from './views/MainRouter.vue'
 import Pro from './views/Pro.vue'
 import Detail from './views/Detail.vue'
-// import Cart from './views/Cart.vue'
+import About from './views/About.vue'
 // import Order from './views/Order.vue'
 // import Portal from './views/Portal.vue'
 // import PortalRouter from './views/PortalRouter.vue'
@@ -37,6 +37,10 @@ export default new Router({
         {
           path: 'detail',
           component:Detail
+        },
+        {
+          path: 'about',
+          component:About
         },
        
             

@@ -1,10 +1,10 @@
 <template>
 <div  class="content33">
-			<p > <a href="javascript:;" class="more mt">MORE
+			<p > <a :href="`/#/pro#`" class="more mt">MORE
 			</a>
-			<a href="javascript:;" class="more mt  fr w40">&gt;
+			<a :href="`/#/pro#`" class="more mt  fr w40">&gt;
 			</a>
-			<a href="javascript:;" class="more mt fr w40">&lt;
+			<a :href="`/#/pro#`" class="more mt fr w40">&lt;
 			</a></p>
 	</div>
 </template>

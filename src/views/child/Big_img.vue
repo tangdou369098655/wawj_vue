@@ -1,6 +1,8 @@
 <template>
 	<div class="mountion">
+    <a :href="`/#/detail?pid=12`">
 		<img src="images/4.jpg" alt="">
+    </a>
 	</div>
 </template>
 <script>

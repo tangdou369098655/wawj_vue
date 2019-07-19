@@ -2,6 +2,7 @@
 <div class="content2">
 		<div class="con_sco_div">
 			<div v-for="(item,i) in products" :key="i" class="  pro-four"  >
+        <!-- <a :href="`/#/detail?pid=${pics[i].prcid}`"></a> -->
 				<img :src="pics[i] && pics[i].img" style="width:100%;" class=" wow bounceInLeft animated " :data-wow-delay="`${0.4+i/6}s`" >
 				<p>{{item.index_title}}</p>
 			</div>

@@ -16,7 +16,7 @@
         <div id="lgImg"><img :src="pics[0] && pics[0].img" style="width:450px"></div>
         <div class="left-img" id="left_img">
           <!--  -->
-          <img :src="`images/index/北欧家居展示${myrandom}.jpg`" style="height:100px;width:100px">
+          <img :src="pics[0] && pics[0].img" style="height:100px;width:100px">
           <img :src="`images/index/北欧家居展示${myrandom1}.jpg`" style="height:100px;width:100px">
           <img :src="`images/index/北欧家居展示${myrandom2}.jpg`" style="height:100px;width:100px">
           <img :src="`images/index/北欧家居展示${myrandom3}.jpg`" style="height:100px;width:100px">
@@ -196,10 +196,10 @@ export default {
     return{
       pid:1,
       title:"",
-      myrandom:"",
-      myrandom1:"",
-      myrandom2:"",
-      myrandom3:"",
+      myrandom:{default:1},
+      myrandom1:{default:1},
+      myrandom2:{default:1},
+      myrandom3:{default:1},
       price:"",
       products:[],
       pics:[],
@@ -221,6 +221,9 @@ export default {
 		};
     },
   getData() {
+    var {pid}=this.$route.query;
+    console.log(pid);
+    this.pid=pid;
       this.axios.get(
         `/product`,{params:{pid:this.pid}}
       ).then(
