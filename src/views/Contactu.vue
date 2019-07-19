@@ -6,6 +6,20 @@
   title_english="Contact"
   ></title-one>
   <contact></contact>
+  <title-one
+  title="产品展示"
+  title_english="Product"
+  ></title-one>
+  <pro-four></pro-four>
+  <pro-five
+  state=11
+  ></pro-five>
+  <more></more>
+  <pro-hot
+  state=10
+	msg="尊享尚品推荐"
+	kinds="尊享"
+  ></pro-hot>
   <big-img></big-img>
   </div>
 </template>

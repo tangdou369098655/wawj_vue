@@ -2,19 +2,20 @@
 <div class="content2">
 		<div class="con_sco_div">
 			<div class="  pro-four"  >
-				<img src="images/22.jpg" class=" wow flipInX animated" data-wow-delay="0.2s"  style="width:100%;">
+        <a :href="`/#/detail?pid=36`">
+				<img src="images/22.jpg" class=" wow flipInX animated" data-wow-delay="0.2s"  style="width:100%;"></a>
 				<p>拉丝小台灯</p>
 			</div>
-			<div class="  pro-four">
-				<img src="images/28.jpg" class=" wow flipInX animated" data-wow-delay="0.4s"   style="width:100%;">
+			<div class="  pro-four"> <a :href="`/#/detail?pid=44`">
+				<img src="images/28.jpg" class=" wow flipInX animated" data-wow-delay="0.4s"   style="width:100%;"></a>
 				<p>银色金属圆桌</p>
 			</div>
-			<div class="  pro-four">
-				<img src="images/19.jpg" class=" wow flipInX animated" data-wow-delay="0.6s"   style="width:100%;">
+			<div class="  pro-four"> <a :href="`/#/detail?pid=66`">
+				<img src="images/19.jpg" class=" wow flipInX animated" data-wow-delay="0.6s"   style="width:100%;"></a>
 				<p>深灰木纹台灯</p>
 			</div>
-			<div class="  pro-four">
-				<img src="images/30.jpg" alt="" class=" wow  flipInX animated" data-wow-delay="0.8s"   style="width:100%;">
+			<div class="  pro-four"> <a :href="`/#/detail?pid=88`">
+				<img src="images/30.jpg" alt="" class=" wow  flipInX animated" data-wow-delay="0.8s"   style="width:100%;"></a>
 				<p>居家立式台灯</p>
 			</div>
 		</div>
