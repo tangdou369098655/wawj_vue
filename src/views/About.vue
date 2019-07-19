@@ -5,6 +5,17 @@
   title_english="About"
   ></title-one>
   <pro-three></pro-three>
+  <pro-hot
+  state=6
+	msg="VIP精品推荐"
+	kinds="高端"
+  ></pro-hot>
+  <pro-hot
+  state=9
+	msg="精选推荐"
+	kinds="精选"
+  ></pro-hot>
+  <big-img></big-img>
 </div>
 </template>
 <script>

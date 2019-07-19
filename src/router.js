@@ -5,8 +5,8 @@ import MainRouter from './views/MainRouter.vue'
 import Pro from './views/Pro.vue'
 import Detail from './views/Detail.vue'
 import About from './views/About.vue'
-// import Order from './views/Order.vue'
-// import Portal from './views/Portal.vue'
+import News from './views/News.vue'
+import Contactu from './views/Contactu.vue'
 // import PortalRouter from './views/PortalRouter.vue'
 // import proMyadd from './views/protal-all/Pro-myadd'
 // import proMydetails from './views/protal-all/Pro-mydetails'
@@ -41,6 +41,14 @@ export default new Router({
         {
           path: 'about',
           component:About
+        },
+        {
+          path: 'news',
+          component:News
+        },
+        {
+          path: 'contactu',
+          component:Contactu
         },
        
             

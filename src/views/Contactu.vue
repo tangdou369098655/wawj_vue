@@ -1,18 +1,13 @@
 <template>
-<div><div >
+<div>
+ 
   <title-one
-  title="产品展示"
-  title_english="Product"
+  title="联系我们"
+  title_english="Contact"
   ></title-one>
-  </div>
-<div v-for="(item,i) in list" :key="i">
-
-  <pro-five
-  :state="item"
-  ></pro-five>
-</div>
+  <contact></contact>
   <big-img></big-img>
-</div>
+  </div>
 </template>
 <script>
  //引入子组件
@@ -30,24 +25,26 @@ import proSix from './child/Pro_six'
 import more from './child/More'
 import titleOne from './child/Title_one'
 import proHot from './child/pro_hot'
+
+
 export default {
-	name:"pro-four",
+	name:"contactu",
 	props:{
 		
 	},
   data(){
     return{
-     list:[11,12,13,4,5,6,7,8,9,10]
+     
     }
 	},
 	methods:{
 		onload(){
-      
       if (!(/msie [6|7|8|9]/i.test(navigator.userAgent))) {
 			new WOW().init();
 		};
     }
   },
+
 	// 注册子组件
 	components:{
 "about-one":aboutOne,

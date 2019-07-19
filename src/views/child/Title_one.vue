@@ -1,5 +1,5 @@
 <template>
-<div class="content22">
+<div class="content22" style="margin-left:100px">
 		<div>
 			<p>{{title}}</p>
 			<p>{{title_english}}</p>

@@ -10,11 +10,11 @@
         <img src="images/112.png" alt="">
       </div>
       <div class="fr container-a">
-        <a href="javascript:;">首页</a>
+        <a :href="`/#/home`">首页</a>
         <a :href="`/#/about`">关于</a>
         <a :href="`/#/pro`">产品</a>
-        <a href="javascript:;">动态</a>
-        <a href="javascript:;">联系</a>
+        <a :href="`/#/news`">动态</a>
+        <a :href="`/#/contactu`">联系</a>
         <a href="javascript:;" class="txt">我要订购</a>
       </div>
       <div style="clear: both"></div>
